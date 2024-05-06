@@ -1,2 +1,2 @@
 #!/bin/bash
-su chown www-data hello
+sudo chown www-data hello
