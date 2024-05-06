@@ -1,2 +1,2 @@
 #!/bin/bash
-chown www-data hello
+su chown www-data hello
