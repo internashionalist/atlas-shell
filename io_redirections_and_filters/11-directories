@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./* -type d | lpr | wc -l
+find ./* | grep -d | wc -l
