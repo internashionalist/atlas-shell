@@ -1,0 +1,2 @@
+#!bin/bash
+alias CLONE="git clone https://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@github.com/internashionalist/atlas-shell.git"
