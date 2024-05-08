@@ -1,2 +1,2 @@
-#!bin/bash
-alias MK="mkdir"
+#!/bin/bash
+alias PUSH="git push"
