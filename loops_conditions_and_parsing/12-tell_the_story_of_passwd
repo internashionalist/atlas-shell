@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # tells a somewhat repetitive but riveting tale of the denizens living in the land of /etc/passwd - using while and IFS
 
-while IFS=':' read -r USERNAME GROUP_ID HOME_DIRECTORY COMMANDSHELL USER_ID_INFO
+while IFS=':' read -r USERNAME GROUP_ID HOME_DIRECTORY COMMANDSHELL USER_ID_INFO USER_ID
 do
 	echo "The user $USERNAME is part of the $GROUP_ID gang, lives in $HOME_DIRECTORY and rides $COMMANDSHELL. $USER_ID's place is protected by the passcode $PASSWORD, more info about the user here: $USER_ID_INFO"
 done < "/etc/passwd"
