@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# groups apache-access.log by visitor ID and HTTP status code - using awk
+
+awk '{print $1,$9}' apache-access.log
